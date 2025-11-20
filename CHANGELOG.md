@@ -1,4 +1,15 @@
-# Code Editor Package for Cursor
+# Code Editor Package for Antigravity
+
+## [2.0.28] - 2025-11-20
+
+Integration:
+
+- Converted the Cursor package to Antigravity (`com.sirtensor.ide.antigravity`) with updated README/package metadata.
+- Add Antigravity-specific discovery (paths/process names) and reuse-window preference key.
+- Point workspace detection to Antigravity storage locations and tags.
+- Prefer Antigravity app version (exe/Info.plist) over the VSCode manifest and bumped to 2.0.28 to track the Cursor fork lineage.
+- Retained some original Cursor files (e.g., VisualStudioCursorInstallation.cs) to ease future upstream merges.
+
 
 ## [2.0.27] - 2025-11-02
 
